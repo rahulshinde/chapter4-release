@@ -465,7 +465,6 @@ li {
     background-size: 60%;
 }
 
-.ch4,
 .ch5,
 .ch6,
 .ch7,
@@ -499,31 +498,26 @@ a:hover {
 .ch1:hover
 /*.ch6:hover*/ {
 	background-color: #ffe705;
-	background-image: none;
 }
 
 .ch2:hover
 /*.ch7:hover */{
 	background-color: #ffdb55;
-	background-image: none;
 }
 
 .ch3:hover
 /*.ch8:hover*/ {
 	background-color: #ffd582;
-	background-image: none;
 }
 
-/*.ch4:hover,
-.ch9:hover {
+.ch4:hover
+/*.ch9:hover*/ {
 	background-color: #ffcfa7;
-	background-image: none;
 }
 
-.ch5:hover,
+/*.ch5:hover,
 .ch10:hover {
 	background-color: #ffcaca;
-	background-image: none;
 }*/
 
 .tl {
@@ -693,11 +687,11 @@ a:hover {
 		background-color: #ffdd47;
 	}
 
-	/*.ch4:hover {
+	.ch4:hover {
 		background-color: #ffda60;
 	}
 
-	.ch5:hover {
+	/*.ch5:hover {
 		background-color: #ffd676;
 	}
 
@@ -719,8 +713,8 @@ a:hover {
 
 	.ch10:hover {
 		background-color: #ffcaca
-	}*/
-
+	}
+*/
 	.intro-text,
 	.intro-close {
 		display: none;
@@ -759,18 +753,18 @@ a:hover {
 
 	.ch1,
 	.ch2,
-	.ch3 {
+	.ch3,
+	.ch4 {
 		background-image: none;
 	}
 
-	.ch3 {
+	.ch4 {
 		border-bottom: none;
 		border-radius: 0 0 10px 10px;
 		-webkit-border-radius: 0 0 10px 10px;
 		-moz-border-radius: 0 0 10px 10px;
 	}
 
-	.ch4,
 	.ch5,
 	.ch6,
 	.ch7,
