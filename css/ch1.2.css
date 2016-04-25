@@ -139,6 +139,11 @@ iframe {
 	margin-top: -20px;
 }
 
+.name-link:link,
+.name-link:visited {
+	color: blue;
+}
+
 /* 	=============================
 		HEADERS
 	============================= */
